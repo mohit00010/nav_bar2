@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:wght@500&display=swap');
+*
+{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(21, 17, 17);
+
+
+}
+.logo
+{
+    height: 115px;
+
+}
+li, a , button
+{
+    font-family: "alkatra" ;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(215, 204, 202);
+    
+}
+header
+{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo
+{
+    cursor: pointer;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.navlinks
+{
+    list-style: none;
+}
+.navlinks li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a 
+{
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover
+{
+    color: #b04524;
+}
+button
+{
+    padding: 9px 25px;
+    margin-left: 20px;
+    background-color: rgb(68, 58, 54);
+    border: none;
+    border-radius:50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover
+{
+    background-color: rgb(176, 66, 15);
+}
